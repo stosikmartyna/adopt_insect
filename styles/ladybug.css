@@ -1,0 +1,5 @@
+.ladybug-svg {
+    position: absolute;
+    transform: rotate(60deg);
+    width: 150px;
+}
