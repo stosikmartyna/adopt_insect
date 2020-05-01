@@ -3,7 +3,9 @@
     background-position: center;
     background-size: cover;
     color: white;
-    padding: 6rem;
+    padding-top: calc(6rem + 50px);
+    padding-bottom: 6rem;
+    padding-left: 6rem;
 }
 
 .header h1 {
