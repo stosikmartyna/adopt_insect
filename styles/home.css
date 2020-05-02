@@ -1,0 +1,32 @@
+.initiatives {
+    border: 3px solid rgb(255, 208, 0);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 1rem 5rem;
+    width: 60vw;
+}
+
+.initiatives__boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.initiatives__box {
+    display: flex;
+    padding: 20px 0;
+    width: 385px;
+}
+
+.initiatives__box img {
+    padding-right: 1.5rem;
+    width: 120px;
+}
+
+.initiatives__box__text {
+    margin: auto 0;
+}
+
+.initiatives__box__text h2 {
+    margin: 0;
+}

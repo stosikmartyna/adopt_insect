@@ -1,0 +1,25 @@
+.header {
+    background-image: url('../../img/header_image.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: calc(7rem + 50px);
+    padding-bottom: 8rem;
+    padding-left: 10rem;
+}
+
+.header h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    letter-spacing: .3rem;
+    margin: 0;
+    text-shadow: 0 0 16px black;
+}
+
+.header span {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    line-height: 1.5;
+    text-shadow: 0 0 6px black;
+}
