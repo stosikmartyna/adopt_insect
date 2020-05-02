@@ -2,6 +2,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     display: flex;
+    font-family: Quicksand;
     justify-content: flex-end;
     position: absolute;
     width: 100%;

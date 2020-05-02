@@ -3,14 +3,15 @@
     background-position: center;
     background-size: cover;
     color: white;
+    font-family: Quicksand;
     padding-top: calc(6rem + 50px);
     padding-bottom: 6rem;
-    padding-left: 6rem;
+    padding-left: 14rem;
 }
 
 .header h1 {
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: bolder;
     letter-spacing: .3rem;
     margin: 0;
     text-shadow: 0 0 16px black;
@@ -18,6 +19,7 @@
 
 .header span {
     font-size: 2rem;
+    font-weight: 600;
     letter-spacing: .2rem;
     line-height: 1.5;
     text-shadow: 0 0 6px black;
