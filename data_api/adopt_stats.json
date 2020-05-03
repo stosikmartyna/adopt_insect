@@ -1,0 +1,26 @@
+{
+    "numberOfDonors": 9745,
+    "adoptedInsects": [
+        {
+            "name": "Ladybug",
+            "value": {
+                "today": 24,
+                "all": 3432
+            }
+        },
+        {
+            "name": "Bee",
+            "value": {
+                "today": 43,
+                "all": 5828
+            }
+        },
+        {
+            "name": "Bumblebee",
+            "value": {
+                "today": 18,
+                "all": 2561
+            }
+        }
+    ]
+}
