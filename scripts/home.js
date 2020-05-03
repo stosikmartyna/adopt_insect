@@ -1,17 +1,31 @@
-const adoptionStatsSection = document.querySelector(".adoption-stats");
-
 const displayAdoptionStats = (insect) => {
-    const paragraph = document.createElement('p');
-    // paragraph.classList.add('nazwa-tej-klasy');
-    paragraph.textContent = `Adopted ${insect.name}s: ${insect.value.all}`
-    adoptionStatsSection.appendChild(paragraph)
+    const adoptionStatsBox = document.querySelector(".adoption-stats__container")
+    const insectBox = document.createElement('div');
+    const insectName = document.createElement('p');
+    const insectIcon = document.createElement('img');
+    const insectAdoptions = document.createElement('p');
+    
+    insectIcon.setAttribute('src', insect.svg);
+    insectIcon.setAttribute('alt', insect.name);
+
+    insectBox.classList.add('adoption-stats__container__box');
+    
+    insectAdoptions.classList.add('adoption-stats__container__box__stat')
+
+    insectName.textContent = `${insect.name}s`
+    insectAdoptions.textContent = insect.value.all
+
+    adoptionStatsBox.appendChild(insectBox)
+    insectBox.appendChild(insectName)
+    insectBox.appendChild(insectIcon)
+    insectBox.appendChild(insectAdoptions)
 }
 
 const getAdoptionStats = () => {
     fetch('../data_api/adopt_stats.json')
         .then(response => response.json())
         .then(response => {
-            response.adoptedInsects.forEach(insect => {
+            response.adoptedInsects.forEach((insect) => {
                 displayAdoptionStats(insect);
             });
         })

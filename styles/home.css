@@ -6,6 +6,12 @@
     width: 60vw;
 }
 
+.initiatives h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
 .initiatives__boxes {
     display: flex;
     justify-content: space-evenly;
@@ -27,6 +33,36 @@
     margin: auto 0;
 }
 
-.initiatives__box__text h2 {
+/* Adoption Stats */
+.adoption-stats {
+    background-color: #FBE864;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.adoption-stats h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.adoption-stats__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.adoption-stats__container__box p {
+    font-weight: bold;
     margin: 0;
+}
+
+.adoption-stats__container__box img {
+    padding: 1rem 0;
+    width: 100px;
+}
+
+.adoption-stats__container__box__stat {
+    font-size: 2rem;
+    letter-spacing: .2rem;
 }
