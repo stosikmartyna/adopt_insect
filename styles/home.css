@@ -1,5 +1,5 @@
 .initiatives {
-    border: 3px solid rgb(255, 208, 0);
+    border: 3px solid #FBE864;
     border-radius: 10px;
     margin: 20px auto;
     padding: 1rem 5rem;
@@ -8,6 +8,7 @@
 
 .initiatives h1 {
     font-size: 3rem;
+    letter-spacing: .3rem;
     padding: 1rem 0;
     text-align: center;
 }
@@ -42,6 +43,7 @@
 
 .adoption-stats h1 {
     font-size: 3rem;
+    letter-spacing: .3rem;
     padding-bottom: 1rem;
 }
 
@@ -65,4 +67,73 @@
 .adoption-stats__container__box__stat {
     font-size: 2rem;
     letter-spacing: .2rem;
+}
+
+/* News */
+.news h1 {
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.news__article {
+    border: 3px solid #FBE864;
+    border-radius: 10px;
+    display: flex;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.news__article img {
+    border-radius: 3px;
+    box-shadow: 2px 2px 8px #bbbbbb;
+    margin-right: 1rem;
+    max-width: 320px;
+}
+
+.news__article__text h2 {
+    letter-spacing: .1rem;
+}
+
+.news__article__text p {
+    letter-spacing: .1rem;
+    line-height: 1.5;
+}
+
+.news__article__text button {
+    background-color: #FBE864;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 6px #dfdede;
+    font-family: Quicksand;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    padding: .5rem;
+    cursor: pointer;
+    width: 7rem;
+}
+.news__article__text button:hover {
+    background-color: rgb(255, 227, 45);
+}
+
+.news__button {
+    background-color: #FBE864;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 6px #dfdede;
+    display: block;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 3.5rem;
+    letter-spacing: .1rem;
+    margin: 0 auto 2rem;
+    padding: .5rem;
+    cursor: pointer;
+    width: 12rem;
+}
+
+.news__button:hover {
+    background-color: rgb(255, 227, 45);
 }
