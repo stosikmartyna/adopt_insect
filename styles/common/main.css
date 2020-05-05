@@ -12,3 +12,25 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Quicksand;
     src: url('../../fonts/quicksand/Quicksand-VariableFont_wght.ttf');
 }
+
+.back-to-top-button {
+    background-color: white;
+    border: 1px solid #A0CA63;
+    border-radius: 10px;
+    bottom: -80px;
+    color: #A0CA63;
+    position: fixed;
+    right: 50px;
+    transition: bottom 1s;
+    width: min-content;
+}
+
+.back-to-top-button-visible {
+    bottom: 50px;
+    transition: bottom 1s;
+}
+
+.back-to-top-button-visible:hover {
+    background-color: rgb(239, 255, 213);
+    cursor: pointer;
+}

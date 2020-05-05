@@ -89,7 +89,7 @@
     border-radius: 3px;
     box-shadow: 2px 2px 8px #bbbbbb;
     margin-right: 1rem;
-    max-width: 320px;
+    width: 320px;
 }
 
 .news__article__text h2 {
