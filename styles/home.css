@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+.initiatives span {
+    letter-spacing: .1rem;
+    line-height: 1.5;
+}
+
 .initiatives__boxes {
     display: flex;
     justify-content: space-evenly;
