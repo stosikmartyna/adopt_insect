@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/common/header.css">
     <link rel="stylesheet" href="./styles/common/ladybug.css">
     <link rel="stylesheet" href="./styles/common/footer.css">
-    <link rel="stylesheet" href="./styles/insects.css">
+    <link rel="stylesheet" href="./styles/adopt.css">
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     <title>Adopt Insect</title>
 </head>
@@ -202,26 +202,82 @@
         </span>
     </section>
 
-    <section class="insects">
-        <h1>Insects</h1>
-            <div class="insects__list">
-                <img src="./img/bee_icon.svg" alt="bee" />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur quis, officia saepe, at
-                    quos aliquid ratione quisquam explicabo animi impedit quae numquam dolorem sit tempore atque ad rerum
-                    maxime.</p>
+    <section class="adopt__insect">
+        <h1>Adopt Insect</h1>
+        <div class="adopt__insect__list">
+            <div class="adopt__insect__list__box">
+                <p>Bee</p>
+                <img class="adopt__insect__list__box__icon" src="./img/bee_icon.svg" alt="bee" />
+                <div class="adopt__insect__list__box__price">
+                    <p>0,5€ = 1</p>
+                    <img class="adopt__insect__list__box__price__icon" src="./img/bee_icon.svg" alt="bee" />
+                </div>
+                <label for="number"></label>
+                <input type="number" placeholder="Quantity of Bees" />
+                <button class="adopt__insect__list__box__button" type="submit">Adopt</button>
             </div>
-            <div class="insects__list">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur quis, officia saepe, at
-                    quos aliquid ratione quisquam explicabo animi impedit quae numquam dolorem sit tempore atque ad rerum
-                    maxime.</p>
-                <img src="./img/ladybug_icon.svg" alt="ladybug" />
+            
+            <div class="adopt__insect__list__box">
+                <p>Ladybug</p>
+                <img class="adopt__insect__list__box__icon" src="./img/ladybug_icon.svg" alt="ladybug" />
+                <div class="adopt__insect__list__box__price">
+                    <p>0,5€ = 1</p>
+                    <img class="adopt__insect__list__box__price__icon" src="./img/ladybug_icon.svg" alt="ladybug" />
+                </div>
+                <label for="number"></label>
+                <input type="number" placeholder="Quantity of Bees" />
+                <button class="adopt__insect__list__box__button" type="submit">Adopt</button>
             </div>
-            <div class="insects__list">
-                <img src="./img/bumblebee_icon.svg" alt="bumblebee" />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur quis, officia saepe, at
-                    quos aliquid ratione quisquam explicabo animi impedit quae numquam dolorem sit tempore atque ad rerum
-                    maxime.</p>
+            
+            <div class="adopt__insect__list__box">
+                <p>Bumblebee</p>
+                <img class="adopt__insect__list__box__icon" src="./img/bumblebee_icon.svg" alt="bumblebee" />
+                <div class="adopt__insect__list__box__price">
+                    <p>0,5€ = 1</p>
+                    <img class="adopt__insect__list__box__price__icon" src="./img/bumblebee_icon.svg" alt="bumblebee" />
+                </div>
+                <label for="number"></label>
+                <input type="number" placeholder="Quantity of Bees" />
+                <button class="adopt__insect__list__box__button" type="submit">Adopt</button>
             </div>
+        </div>
+    </section>
+
+
+
+    <section class="adopt">
+    
+        <div class="adopt__form">
+            <h1>Insect Adoption Form</h1>
+            <form class="adopt__form__register">
+                <div class="adopt__form__register__label">
+                    <label for="name"><img src="./img/user__icon.svg"/></label>
+                    <input type="text" placeholder="Full Name" />
+                </div>
+                <div class="adopt__form__register__label">
+                    <label for="email"><img src="./img/mail__icon.svg"/></label>
+                    <input type="email" placeholder="Email" />
+                </div>
+                <div class="adopt__form__register__label">
+                    <label for="phone"><img src="./img/phone__icon.svg"/></label>
+                    <input type="tel" placeholder="Phone" />
+                </div>
+                <div class="adopt__form__register__agree-term">
+                    <input type="checkbox" class="adopt__form__register__agree-term__checkbox" />
+                    <label for="agree-term" class="label-agree-term">
+                        <span>I agree all statements in 
+                            <a href="#" class="term-service">Terms of service</a>
+                        </span>    
+                    </label>
+                </div>
+            </form>
+    
+            <button class="adopt__form__button" type="submit">
+                Adopt
+            </button
+    
+        </div>
+    
     </section>
 
     <footer>
