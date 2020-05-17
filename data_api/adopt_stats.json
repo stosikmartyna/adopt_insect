@@ -9,19 +9,19 @@
     },
     "adoptedInsects": [
         {
-            "name": "Ladybug",
-            "svg": "img/ladybug_icon.svg",
-            "value": {
-                "today": 24,
-                "all": 3432
-            }
-        },
-        {
             "name": "Bee",
             "svg": "img/bee_icon.svg",
             "value": {
                 "today": 43,
                 "all": 5828
+            }
+        },
+        {
+            "name": "Ladybug",
+            "svg": "img/ladybug_icon.svg",
+            "value": {
+                "today": 24,
+                "all": 3432
             }
         },
         {
