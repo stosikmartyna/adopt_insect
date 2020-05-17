@@ -1,62 +1,8 @@
-.adopt__insect {
-    border: 3px solid #FBE864;
-    border-radius: 10px;
-    margin: 20px auto;
-    padding: 1rem 5rem;
-    width: 60vw;
-}
-
-.adopt__insect h1 {
-    font-size: 3rem;
-    letter-spacing: .3rem;
-    padding-bottom: 1rem;
-    text-align: center;
-}
-
-.adopt__insect__list {
-    display: flex;
-}
-
-.adopt__insect__list__box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: 20vw;
-}
-
-.adopt__insect__list__box__icon {
-    width: 130px;
-}
-
-.adopt__insect__list__box__price {
-    display: flex;
-    margin: 1rem 0;
-}
-.adopt__insect__list__box__price__icon {
-    width: 24px;
-}
-
-.adopt__insect__list__box__button {
-    background-color: #FBE864;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 1px 2px 6px #dfdede;
-    display: block;
-    font-family: Quicksand;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: .1rem;
-    margin: 1rem 0;
-    padding: .5rem 1rem;
-    cursor: pointer;
-}
-
 /* Form */
 .adopt {
-    border: 3px solid #FBE864;
+    border: 2px solid #FBE864;
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 80px auto;
     padding: 1rem 5rem;
     width: 60vw;
 }
@@ -64,30 +10,60 @@
 .adopt h1 {
     font-size: 3rem;
     letter-spacing: .3rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
+}
+
+.adopt__form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adopt__form__register {
+    width: 45%;
 }
 
 .adopt__form__register__label {
     border-bottom: 1px solid rgb(204, 204, 204);
     display: flex;
     margin-top: 1rem; 
-    width: 18rem;
-}
-
-.adopt__form__register__label input{
-    border: none;
-    margin-left: .5rem;
-    width: 18rem;
 }
 
 .adopt__form__register__label img {
-    margin-right: 1rem;
-    width: 40px;
+    margin-right: 1.5rem;
+    width: 30px;
+}
+
+.adopt__form__register__label input {
+    border: none;
 }
 
 .adopt__form__register__agree-term {
+    display: block;
     margin-top: 1rem;
+}
+
+.adopt__form__insects {
+    width: 45%;
+}
+
+.adopt__form__insects img {
+    width: 35px;
+}
+
+.adopt__form__insects__label {
+    display: flex;
+    margin-top: 1rem; 
+}
+
+.adopt__form__insects__label span {
+    margin: auto .5rem;
+    width: 6rem;
+}
+
+.adopt__form__insects__label input {
+    text-align: center;
+    width: 3rem;
 }
 
 .adopt__form__button {
@@ -95,14 +71,14 @@
     border: none;
     border-radius: 3px;
     box-shadow: 1px 2px 6px #dfdede;
+    cursor: pointer;
     display: block;
     font-family: Quicksand;
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: .1rem;
-    margin: 2rem auto 2rem;
+    margin: 2rem auto;
     padding: 1rem 3rem;
-    cursor: pointer;
 }
 
 .adopt__form__button:hover {
