@@ -36,11 +36,22 @@
 
 .adopt__form__register__label input {
     border: none;
+    outline: none;
 }
 
-.adopt__form__register__agree-term {
-    display: block;
-    margin-top: 1rem;
+.adopt__form__summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.adopt__form__summary__agree-term {
+    width: 45%;
+}
+
+.adopt__form__summary__total {
+    font-weight: bold;
+    width: 45%;
 }
 
 .adopt__form__insects {

@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./styles/common/ladybug.css">
     <link rel="stylesheet" href="./styles/common/footer.css">
     <link rel="stylesheet" href="./styles/adopt.css">
-    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
     <title>Adopt Insect</title>
 </head>
 
@@ -64,10 +63,6 @@
                     <img src="./img/phone__icon.svg" />
                     <input type="tel" placeholder="Phone" />
                 </div>
-                <label for="adopt__form__register__agree-term" class="adopt__form__register__agree-term">
-                    <input type="checkbox" id="adopt__form__register__agree-term" />
-                    <span>I agree all statements in <a href="#" class="term-service">Terms of service</a></span>
-                </label>
             </form>
         
             <div class="adopt__form__insects">
@@ -75,22 +70,35 @@
                 <label class="adopt__form__insects__label" for="adopt__form__insects__label-bee">
                     <img src="./img/bee_icon.svg" />
                     <span>Bee</span>
-                    <input type="number" id="adopt__form__insects__label-bee" />
-                    <span>x €0.50</span>
+                    <input type="number" value="0" id="adopt__form__insects__label-bee" />
+                    <span class="adopt__form__insects__label__amount-bee"></span>
                 </label>
                 <label class="adopt__form__insects__label" for="adopt__form__insects__label-ladybug">
                     <img src="./img/ladybug_icon.svg" />
                     <span>Ladybug</span>
-                    <input type="number" id="adopt__form__insects__label-ladybug" />
-                    <span>x €0.50</span>
+                    <input type="number" value="0" id="adopt__form__insects__label-ladybug" />
+                    <span class="adopt__form__insects__label__amount-ladybug"></span>
                 </label>
                 <label class="adopt__form__insects__label" for="adopt__form__insects__label-bumblebee">
                     <img src="./img/bumblebee_icon.svg" />
                     <span>Bumblebee</span>
-                    <input type="number" id="adopt__form__insects__label-bumblebee" />
-                    <span>x €0.50</span>
+                    <input type="number" value="0" id="adopt__form__insects__label-bumblebee" />
+                    <span class="adopt__form__insects__label__amount-bumblebee"></span>
                 </label>
             </div>
+        </div>
+
+        <div class="adopt__form__summary">
+            <label class="adopt__form__summary__agree-term" for="adopt__form__summary__agree-term">
+                <input type="checkbox" id="adopt__form__register__agree-term" />
+                <span>
+                    I agree all statements in <a href="#">Terms of service</a>.
+                </span>
+            </label>
+
+            <span class="adopt__form__summary__total">
+                Total: €<span class="adopt__form__summary__total__sum">0</span>
+            </span>
         </div>
     
         <button class="adopt__form__button" type="submit">
@@ -104,6 +112,7 @@
     </footer>
     
     <script src="scripts/back-to-top.js"></script>
+    <script src="scripts/adopt.js"></script>
 </body>
 
 </html>
