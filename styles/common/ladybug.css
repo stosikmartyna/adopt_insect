@@ -54,3 +54,9 @@
     50% {  transform: rotateX(0deg); }
     100% { transform: rotateX(10deg); }
 }
+
+@media (max-width: 960px) {
+    #ladybug-svg {
+        display: none;
+    }
+}

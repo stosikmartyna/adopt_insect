@@ -22,3 +22,18 @@
     line-height: 1.5;
     text-shadow: 0 0 6px black;
 }
+
+@media (max-width: 960px) {
+    .header {
+        padding-left: 2.5rem;
+        width:100%;
+    }
+    
+    .header h1 {
+        font-size: 3.5rem;
+    }
+
+    .header span {
+        font-size: 2rem;
+    }
+}
