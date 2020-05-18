@@ -28,3 +28,38 @@
     letter-spacing: .1rem;
     line-height: 1.5;
 }
+
+@media (max-width: 1050px) {
+    .insects {
+        padding: 2rem auto;
+        width: auto;
+    }
+
+    .insects__list {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .insects {
+        padding: 1rem 3rem;
+        width: auto;
+    }
+
+    .insects__list:nth-child(even) {
+        flex-wrap: wrap;
+    }
+
+    .insects__list:nth-child(odd) {
+        flex-wrap: wrap-reverse;
+    }
+
+    .insects__list img {
+        margin: 0 auto;
+    }
+
+    .insects__list p {
+        text-align: center;
+    }
+}
+

@@ -20,6 +20,7 @@
 }
 
 .adopt__form__register {
+    min-width: 300px;
     width: 45%;
 }
 
@@ -43,6 +44,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 1.5rem;
+    min-width: 300px;
 }
 
 .adopt__form__summary__agree-term {
@@ -94,4 +96,48 @@
 
 .adopt__form__button:hover {
     background-color: rgb(255, 227, 45);
+}
+
+@media (max-width: 750px) {
+    .adopt {
+        margin: 40px auto;
+        padding: 2rem;
+        width: auto;
+    }
+
+    .adopt h3 {
+        text-align: center;
+    }
+
+    .adopt__form {
+        flex-wrap: wrap;
+    }
+
+    .adopt__form__register {
+        margin-bottom: 3rem;
+    }
+
+    .adopt__form__insects {
+        width: auto;
+    }
+
+    .adopt__form__insects__label span  {
+        margin: .3rem 0;
+        text-align: center;
+    }
+
+    .adopt__form__summary {
+        flex-wrap: wrap-reverse;
+    }
+
+    .adopt__form__summary__agree-term{
+        width: 100%;
+    }
+
+    .adopt__form__summary__total {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 100%;
+    }
 }
