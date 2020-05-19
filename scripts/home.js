@@ -22,7 +22,7 @@ const displayAdoptionStats = (insect) => {
 }
 
 const getAdoptionStats = () => {
-    fetch('../data_api/adopt_stats.json')
+    fetch('./adopt_stats.json')
         .then(response => response.json())
         .then(response => {
             response.adoptedInsects.forEach((insect) => {
