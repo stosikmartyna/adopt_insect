@@ -1,143 +1,151 @@
 /* Form */
 .adopt {
-    border: 2px solid #FBE864;
-    border-radius: 10px;
-    margin: 80px auto;
-    padding: 1rem 5rem;
-    width: 60vw;
+  border: 2px solid #FBE864;
+  border-radius: 10px;
+  margin: 80px auto;
+  padding: 1rem 5rem;
+  width: 60vw;
 }
 
 .adopt h1 {
-    font-size: 3rem;
-    letter-spacing: .3rem;
-    padding-bottom: 2rem;
-    text-align: center;
+  font-size: 3rem;
+  letter-spacing: .3rem;
+  padding-bottom: 2rem;
+  text-align: center;
 }
 
 .adopt__form {
-    display: flex;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .adopt__form__register {
-    min-width: 300px;
-    width: 45%;
+  min-width: 300px;
+  width: 45%;
 }
 
 .adopt__form__register__label {
-    border-bottom: 1px solid rgb(204, 204, 204);
-    display: flex;
-    margin-top: 1rem; 
+  border-bottom: 1px solid #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
 }
 
 .adopt__form__register__label img {
-    margin-right: 1.5rem;
-    width: 30px;
+  margin: 0 1.5rem .2rem 0;
+  width: 30px;
 }
 
 .adopt__form__register__label input {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 .adopt__form__summary {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1.5rem;
-    min-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+  min-width: 300px;
 }
 
 .adopt__form__summary__agree-term {
-    width: 45%;
+  width: 45%;
 }
 
 .adopt__form__summary__total {
-    font-weight: bold;
-    width: 45%;
+  font-weight: bold;
+  width: 45%;
 }
 
 .adopt__form__insects {
-    width: 45%;
+  width: 45%;
 }
 
 .adopt__form__insects img {
-    width: 35px;
+  width: 35px;
 }
 
 .adopt__form__insects__label {
-    display: flex;
-    margin-top: 1rem; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1rem;
 }
 
 .adopt__form__insects__label span {
-    margin: auto .5rem;
-    width: 6rem;
+  margin: auto .5rem;
+  width: 6rem;
 }
 
 .adopt__form__insects__label input {
-    text-align: center;
-    width: 3rem;
+  text-align: center;
+  width: 3rem;
 }
 
 .adopt__form__button {
-    background-color: #FBE864;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 1px 2px 6px #dfdede;
-    cursor: pointer;
-    display: block;
-    font-family: Quicksand;
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: .1rem;
-    margin: 2rem auto;
-    padding: 1rem 3rem;
+  background-color: #FBE864;
+  border: none;
+  border-radius: 3px;
+  -webkit-box-shadow: 1px 2px 6px #dfdede;
+          box-shadow: 1px 2px 6px #dfdede;
+  cursor: pointer;
+  display: block;
+  font-family: Quicksand;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: .1rem;
+  margin: 2rem auto;
+  padding: 1rem 3rem;
 }
 
 .adopt__form__button:hover {
-    background-color: rgb(255, 227, 45);
+  background-color: #ffe32d;
 }
 
 @media (max-width: 750px) {
-    .adopt {
-        margin: 40px auto;
-        padding: 2rem;
-        width: auto;
-    }
-
-    .adopt h3 {
-        text-align: center;
-    }
-
-    .adopt__form {
+  .adopt {
+    margin: 40px auto;
+    padding: 2rem;
+    width: auto;
+  }
+  .adopt h3 {
+    text-align: center;
+  }
+  .adopt__form {
+    -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    }
-
-    .adopt__form__register {
-        margin-bottom: 3rem;
-    }
-
-    .adopt__form__insects {
-        width: auto;
-    }
-
-    .adopt__form__insects__label span  {
-        margin: .3rem 0;
-        text-align: center;
-    }
-
-    .adopt__form__summary {
+  }
+  .adopt__form__register {
+    margin-bottom: 3rem;
+  }
+  .adopt__form__insects {
+    width: auto;
+  }
+  .adopt__form__insects__label span {
+    margin: .3rem 0;
+    text-align: center;
+  }
+  .adopt__form__summary {
+    -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
-    }
-
-    .adopt__form__summary__agree-term{
-        width: 100%;
-    }
-
-    .adopt__form__summary__total {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        text-align: center;
-        width: 100%;
-    }
+  }
+  .adopt__form__summary__agree-term {
+    width: 100%;
+  }
+  .adopt__form__summary__total {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }
 }
+/*# sourceMappingURL=adopt.css.map */

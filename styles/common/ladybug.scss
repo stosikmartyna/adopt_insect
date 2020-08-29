@@ -1,0 +1,62 @@
+#ladybug-svg {
+    animation-name: moveLadybug; 
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    left: -200px;
+    top: 7rem;
+    position: absolute;
+    transform: rotate(60deg);
+    width: 200px;
+}
+
+@keyframes moveLadybug {
+    0% {
+        left: -200px;
+    }
+
+    70% {
+        left: 68%;
+        transform: rotate(60deg);
+    }
+
+    100% {
+        left: 68%;
+        transform: rotate(20deg);
+    }
+}
+
+#left-leg-top,
+#right-leg-center,
+#left-leg-bottom {
+    animation-name: moveLegs;
+    animation-duration: .5s;
+    animation-iteration-count: 40;
+    animation-timing-function: linear;
+}
+
+#right-leg-top,
+#left-leg-center,
+#right-leg-bottom {
+    animation-name: moveLegs2;
+    animation-duration: .5s;
+    animation-iteration-count: 40;
+    animation-timing-function: linear;
+}
+
+@keyframes moveLegs {
+    0% { transform: rotateX(0deg); }
+    50% { transform: rotateX(10deg); }
+    100% {  transform: rotateX(0deg); }
+}
+
+@keyframes moveLegs2 {
+    0% {  transform: rotateX(10deg); }
+    50% {  transform: rotateX(0deg); }
+    100% { transform: rotateX(10deg); }
+}
+
+@media (max-width: 960px) {
+    #ladybug-svg {
+        display: none;
+    }
+}

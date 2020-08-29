@@ -1,0 +1,61 @@
+.insects {
+    border: 3px solid #FBE864;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 1rem 5rem;
+    width: 60vw;
+    h1 {
+        font-size: 3rem;
+        letter-spacing: .3rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+.insects__list {
+    display: flex;
+    margin: 20px auto;
+    width: 40vw;
+    img {
+        margin: 0 1rem;
+        width: 100px;
+    }
+    p {
+        letter-spacing: .1rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 1050px) {
+    .insects {
+        padding: 2rem auto;
+        width: auto;
+    }
+
+    .insects__list {
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px) {
+    .insects {
+        padding: 1rem 3rem;
+        width: auto;
+    }
+
+    .insects__list {
+        &:nth-child(even) {
+            flex-wrap: wrap;
+        }
+        &:nth-child(odd) {
+            flex-wrap: wrap-reverse;
+        }
+        img {
+            margin: 0 auto;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
+

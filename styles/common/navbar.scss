@@ -1,0 +1,75 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    width: 100%;
+    li {
+        display: inline;
+    }
+    a {
+        color: white;
+        letter-spacing: .1rem;
+        padding: 0 20px;
+        text-decoration: none;
+        &:hover {
+            color: rgb(234, 240, 130);
+        }
+    }
+}
+
+#nav-toggle-checkbox, #nav-toggle-label {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: rgba(22, 22, 22, 0.986);
+        display: block;
+        height: 100%;
+        left: -250px;
+        padding-top: 100px;
+        position: fixed;
+        transition: left 1s ease-in-out;
+        width: 250px;
+        ul {
+            padding: 0;
+        }
+        a {
+            display: block;
+            font-size: 1.3rem;
+            letter-spacing: .3rem;
+            padding: 2rem 2rem;
+            box-sizing: border-box;
+        }
+        & a::after {
+            border-bottom: 1px solid #00000000;
+            content: "";
+            display: block;
+            padding-top: 5px ;
+            transition: all ease-in-out .5s;
+            width: 0;
+        }
+        & a:hover::after {
+            border-bottom: 1px solid #faf0b0;
+            color: #faf0b0;
+            width: calc(250px - 2rem);
+        }
+    }
+    
+    #nav-toggle-label {
+        color: #faf0b0;
+        display: flex;
+        font-size: 3rem;
+        position: fixed;
+        left: 30px;
+        top: 20px;
+        z-index: 2;
+    }
+
+    #nav-toggle-checkbox:checked ~ .navbar {
+        left: 0px;
+    }
+}
+
