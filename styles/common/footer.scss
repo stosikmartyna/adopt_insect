@@ -1,5 +1,7 @@
+@import '../helpers/colors';
+
 footer {
-    background-color: rgb(160, 202, 99);
+    background-color: $lightGreen;
     color: white;
     letter-spacing: .3rem;
     padding: 1rem 0;

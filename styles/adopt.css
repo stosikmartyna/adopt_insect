@@ -1,6 +1,6 @@
 /* Form */
 .adopt {
-  border: 2px solid #FBE864;
+  border: 2px solid #fbe864;
   border-radius: 10px;
   margin: 80px auto;
   padding: 1rem 5rem;
@@ -92,11 +92,11 @@
 }
 
 .adopt__form__button {
-  background-color: #FBE864;
+  background-color: #fbe864;
   border: none;
   border-radius: 3px;
-  -webkit-box-shadow: 1px 2px 6px #dfdede;
-          box-shadow: 1px 2px 6px #dfdede;
+  -webkit-box-shadow: 1px 2px 6px #cccccc;
+          box-shadow: 1px 2px 6px #cccccc;
   cursor: pointer;
   display: block;
   font-family: Quicksand;

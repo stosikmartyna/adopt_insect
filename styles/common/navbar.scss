@@ -1,6 +1,8 @@
+@import '../helpers/colors';
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.3);
-    color: white;
+    color: $classicWhite;
     display: flex;
     justify-content: flex-end;
     position: absolute;
@@ -9,12 +11,12 @@
         display: inline;
     }
     a {
-        color: white;
+        color: $classicWhite;
         letter-spacing: .1rem;
         padding: 0 20px;
         text-decoration: none;
         &:hover {
-            color: rgb(234, 240, 130);
+            color: $softYellow;
         }
     }
 }
@@ -25,7 +27,7 @@
 
 @media (max-width: 768px) {
     .navbar {
-        background-color: rgba(22, 22, 22, 0.986);
+        background-color: $darkShadow;
         display: block;
         height: 100%;
         left: -250px;
@@ -52,14 +54,14 @@
             width: 0;
         }
         & a:hover::after {
-            border-bottom: 1px solid #faf0b0;
-            color: #faf0b0;
+            border-bottom: 1px solid $lightYellow;
+            color: $lightYellow;
             width: calc(250px - 2rem);
         }
     }
     
     #nav-toggle-label {
-        color: #faf0b0;
+        color: $lightYellow;
         display: flex;
         font-size: 3rem;
         position: fixed;

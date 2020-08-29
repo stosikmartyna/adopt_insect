@@ -1,5 +1,7 @@
+@import './helpers/colors';
+
 .initiatives {
-    border: 3px solid #FBE864;
+    border: 3px solid $intenseYellow;
     border-radius: 10px;
     margin: 20px auto;
     padding: 1rem 5rem;
@@ -39,7 +41,7 @@
 /* Adoption Stats */
 
 .adoption-stats {
-    background-color: #FBE864;
+    background-color: $intenseYellow;
     padding: 2rem 0;
     text-align: center;
     h1 {
@@ -81,7 +83,7 @@
 }
 
 .news__article {
-    border: 3px solid #FBE864;
+    border: 3px solid $intenseYellow;
     border-radius: 10px;
     display: flex;
     margin: 2rem auto;
@@ -89,7 +91,7 @@
     width: 70vw;
     img {
         border-radius: 3px;
-        box-shadow: 2px 2px 8px #bbbbbb;
+        box-shadow: 2px 2px 8px $lightGrey;
         margin: auto;
         min-width: 360px;
         height: 100%;
@@ -107,10 +109,10 @@
         line-height: 1.5;
     }
     button {
-        background-color: #FBE864;
+        background-color: $sunnyYellow;
         border: none;
         border-radius: 3px;
-        box-shadow: 1px 2px 6px #ebebeb;
+        box-shadow: 1px 2px 6px $softGrey;
         font-family: Quicksand;
         font-weight: 500;
         letter-spacing: .1rem;
@@ -119,15 +121,15 @@
         width: 7rem;
     }
     & button:hover {
-        background-color: rgb(255, 227, 45);
+        background-color: $sunnyYellow;
     }
 }
 
 .news__button {
-    background-color: #FBE864;
+    background-color: $intenseYellow;
     border: none;
     border-radius: 3px;
-    box-shadow: 1px 2px 6px #dfdede;
+    box-shadow: 1px 2px 6px $softGrey;
     display: block;
     font-family: Quicksand;
     font-size: 1rem;
@@ -139,7 +141,7 @@
     cursor: pointer;
     width: 12rem;
     &:hover {
-        background-color: rgb(255, 227, 45);
+        background-color: $sunnyYellow;
     }
 }
 

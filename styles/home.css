@@ -1,5 +1,5 @@
 .initiatives {
-  border: 3px solid #FBE864;
+  border: 3px solid #fbe864;
   border-radius: 10px;
   margin: 20px auto;
   padding: 1rem 5rem;
@@ -48,7 +48,7 @@
 
 /* Adoption Stats */
 .adoption-stats {
-  background-color: #FBE864;
+  background-color: #fbe864;
   padding: 2rem 0;
   text-align: center;
 }
@@ -94,7 +94,7 @@
 }
 
 .news__article {
-  border: 3px solid #FBE864;
+  border: 3px solid #fbe864;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,8 +106,8 @@
 
 .news__article img {
   border-radius: 3px;
-  -webkit-box-shadow: 2px 2px 8px #bbbbbb;
-          box-shadow: 2px 2px 8px #bbbbbb;
+  -webkit-box-shadow: 2px 2px 8px #cccccc;
+          box-shadow: 2px 2px 8px #cccccc;
   margin: auto;
   min-width: 360px;
   height: 100%;
@@ -128,7 +128,7 @@
 }
 
 .news__article__text button {
-  background-color: #FBE864;
+  background-color: #ffe32d;
   border: none;
   border-radius: 3px;
   -webkit-box-shadow: 1px 2px 6px #ebebeb;
@@ -146,11 +146,11 @@
 }
 
 .news__button {
-  background-color: #FBE864;
+  background-color: #fbe864;
   border: none;
   border-radius: 3px;
-  -webkit-box-shadow: 1px 2px 6px #dfdede;
-          box-shadow: 1px 2px 6px #dfdede;
+  -webkit-box-shadow: 1px 2px 6px #ebebeb;
+          box-shadow: 1px 2px 6px #ebebeb;
   display: block;
   font-family: Quicksand;
   font-size: 1rem;

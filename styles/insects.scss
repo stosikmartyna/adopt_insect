@@ -1,5 +1,7 @@
+@import './helpers/colors';
+
 .insects {
-    border: 3px solid #FBE864;
+    border: 3px solid $intenseYellow;
     border-radius: 10px;
     margin: 20px auto;
     padding: 1rem 5rem;

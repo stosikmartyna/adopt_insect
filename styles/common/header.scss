@@ -1,8 +1,10 @@
+@import '../helpers/colors';
+
 .header {
     background-image: url('../../img/header_image.jpg');
     background-position: center;
     background-size: cover;
-    color: white;
+    color: $classicWhite;
     padding-top: calc(7rem + 50px);
     padding-bottom: 8rem;
     padding-left: 10rem;
@@ -10,14 +12,14 @@
         font-size: 6rem;
         font-weight: bolder;
         letter-spacing: .3rem;
-        text-shadow: 0 0 16px black;
+        text-shadow: 0 0 16px $classicBlack;
     }
     span {
         font-size: 2rem;
         font-weight: 600;
         letter-spacing: .2rem;
         line-height: 1.5;
-        text-shadow: 0 0 6px black;
+        text-shadow: 0 0 6px $classicBlack;
     }
 }
 
@@ -26,7 +28,7 @@
         padding-left: 0;
         text-align: center;
         h1 {
-            text-shadow: 0 0 10px black;
+            text-shadow: 0 0 10px $classicBlack;
             font-size: 3.5rem;
         }
         span {

@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top-button {
   background-color: white;
-  border: 1px solid #A0CA63;
+  border: 1px solid #a0ca63;
   border-radius: 10px;
   bottom: -80px;
   position: fixed;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top-button a {
-  color: #A0CA63;
+  color: #a0ca63;
 }
 
 .back-to-top-button-visible {
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top-button-visible:hover {
-  background-color: #efffd5;
+  background-color: #d3ffaf;
   cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
