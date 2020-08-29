@@ -9,7 +9,7 @@
 .insects h1 {
   font-size: 3rem;
   letter-spacing: .3rem;
-  padding-bottom: 1rem;
+  padding: 0;
   text-align: center;
 }
 

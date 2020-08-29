@@ -1,4 +1,6 @@
 @import './helpers/colors';
+@import './helpers/headers';
+@import './helpers/buttons';
 
 .initiatives {
     border: 3px solid $intenseYellow;
@@ -7,10 +9,7 @@
     padding: 1rem 5rem;
     width: 60vw;
     h1 {
-        font-size: 3rem;
-        letter-spacing: .3rem;
-        padding: 1rem 0;
-        text-align: center;
+        @include pageHeader(1rem 0);
     }
     span {
         letter-spacing: .1rem;
@@ -45,9 +44,7 @@
     padding: 2rem 0;
     text-align: center;
     h1 {
-        font-size: 3rem;
-        letter-spacing: .3rem;
-        padding-bottom: 1rem;
+        @include pageHeader(1rem);
     }
 }
 
@@ -76,10 +73,7 @@
 /* News */
 
 .news h1 {
-    font-size: 3rem;
-    letter-spacing: .3rem;
-    padding-top: 1.5rem;
-    text-align: center;
+    @include pageHeader(1.5rem 0 0 0);
 }
 
 .news__article {
@@ -109,40 +103,18 @@
         line-height: 1.5;
     }
     button {
-        background-color: $sunnyYellow;
-        border: none;
-        border-radius: 3px;
-        box-shadow: 1px 2px 6px $softGrey;
-        font-family: Quicksand;
-        font-weight: 500;
-        letter-spacing: .1rem;
-        padding: .5rem;
-        cursor: pointer;
+        @include button;
         width: 7rem;
-    }
-    & button:hover {
-        background-color: $sunnyYellow;
     }
 }
 
 .news__button {
-    background-color: $intenseYellow;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 1px 2px 6px $softGrey;
+    @include button;
     display: block;
-    font-family: Quicksand;
     font-size: 1rem;
-    font-weight: 500;
     height: 3.5rem;
-    letter-spacing: .1rem;
     margin: 0 auto 2rem;
-    padding: .5rem;
-    cursor: pointer;
     width: 12rem;
-    &:hover {
-        background-color: $sunnyYellow;
-    }
 }
 
 @media (max-width: 1200px) {

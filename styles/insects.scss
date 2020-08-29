@@ -1,4 +1,5 @@
 @import './helpers/colors';
+@import './helpers/headers';
 
 .insects {
     border: 3px solid $intenseYellow;
@@ -7,10 +8,7 @@
     padding: 1rem 5rem;
     width: 60vw;
     h1 {
-        font-size: 3rem;
-        letter-spacing: .3rem;
-        padding-bottom: 1rem;
-        text-align: center;
+        @include pageHeader(0);
     }
 }
 
@@ -60,4 +58,3 @@
         }
     }
 }
-

@@ -1,4 +1,6 @@
 @import './helpers/colors';
+@import './helpers/headers';
+@import './helpers/buttons';
 
 /* Form */
 .adopt {
@@ -8,10 +10,7 @@
     padding: 1rem 5rem;
     width: 60vw;
     h1 {
-        font-size: 3rem;
-        letter-spacing: .3rem;
-        padding-bottom: 2rem;
-        text-align: center;
+        @include pageHeader(0 0 2rem 0);
     }
 }
 
@@ -76,21 +75,11 @@
 }
 
 .adopt__form__button {
-    background-color: $intenseYellow;
-    border: none;
-    border-radius: 3px;
-    box-shadow: 1px 2px 6px $lightGrey;
-    cursor: pointer;
+    @include button;
     display: block;
-    font-family: Quicksand;
     font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: .1rem;
     margin: 2rem auto;
     padding: 1rem 3rem;
-    &:hover {
-        background-color: $sunnyYellow;
-    }
 }
 
 @media (max-width: 750px) {
