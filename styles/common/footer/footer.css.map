@@ -3,7 +3,7 @@
     "mappings": "AAEA,AAAA,MAAM,CAAC;EACH,gBAAgB,ECDP,OAAiB;EDE1B,KAAK,EAAE,KAAK;EACZ,cAAc,EAAE,KAAK;EACrB,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,MAAM;CACrB",
     "sources": [
         "footer.scss",
-        "../helpers/_colors.scss"
+        "../../helpers/_colors.scss"
     ],
     "names": [],
     "file": "footer.css"

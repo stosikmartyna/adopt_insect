@@ -1,7 +1,7 @@
-@import '../helpers/colors';
+@import '../../helpers/colors';
 
 .header {
-    background-image: url('../../img/header_image.jpg');
+    background-image: url('../../../img/header_image.jpg');
     background-position: center;
     background-size: cover;
     color: $classicWhite;

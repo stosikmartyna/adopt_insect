@@ -6,6 +6,7 @@ The main goal of this project is to develop my skills in front-end:
 - using GIT,
 - keeping order in files structure,
 - using BEM,
+- using SASS,
 - fetching and displaying data from json file,
 - creating simple functions to manage DOM,
 - using local font,
